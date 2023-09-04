@@ -23,9 +23,6 @@ const config = {
     path: path.join(__dirname, "dist"),
     filename: "bundle.js",
   },
-  resolve: {
-    mainFields: ["browser", "module", "main"],
-  },
   devServer: {
     static: {
       directory: path.join(__dirname, "dist"),
