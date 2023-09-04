@@ -1,0 +1,20 @@
+{
+  "name": "rx-nostr-with-webpack-bug-reprod",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-cli build",
+    "serve": "webpack-cli serve"
+  },
+  "author": "jiftechnify",
+  "devDependencies": {
+    "@types/webpack-env": "^1.18.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "rx-nostr": "^1.7.4"
+  }
+}
